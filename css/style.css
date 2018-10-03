@@ -1,4 +1,50 @@
-.orderform .order-form-group {
-    padding-top: 5px;
-    padding-bottom: 5px;
+body {
+    width: 1000px;
+    padding: 0;
+    margin: 0 auto;
+    }
+
+header {
+    background: url("../img/1.jpg") no-repeat center top / cover;
+    min-height: 500px;
+    position: relative;
+}
+
+.header-text {
+    position: absolute;
+    right: 70px;
+    bottom: 0px;
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    color: dodgerblue;
+    margin: 0;
+}
+
+.container {
+    margin: 0;
+    background: azure;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.menu li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu li a {
+    width: 100px;
+    margin-right: 40px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: dodgerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: azure;
 }
