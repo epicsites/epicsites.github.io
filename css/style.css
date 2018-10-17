@@ -1,50 +1,114 @@
 body {
-    width: 1000px;
     padding: 0;
-    margin: 0 auto;
-    }
-
-header {
-    background: url("../img/1.jpg") no-repeat center top / cover;
-    min-height: 500px;
-    position: relative;
+    margin: 0;
+    width: 1260px;
 }
 
-.header-text {
-    position: absolute;
-    right: 70px;
-    bottom: 0px;
-    font-size: 30px;
-    font-family: 'Indie Flower', cursive;
-    color: dodgerblue;
-    margin: 0;
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Header CSS*/
+
+header {
+    background: url("../img/header-bg.png") no-repeat center top / cover;
+    
+    height: 651px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 .container {
-    margin: 0;
-    background: azure;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.menu {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-
-}
-
-.menu li {
-    display: inline-block;
-    padding: 20px;
-}
-
-.menu li a {
+.logo-shadow {
+    position: absolute;
+    top: 26px;
+    left: 174px;
+    height: 100px;
     width: 100px;
-    margin-right: 40px;
-    font-family: 'Indie Flower', cursive;
-    font-size: 20px;
-    font-weight: bold;
-    color: dodgerblue;
-    text-decoration: none;
-    text-transform: uppercase;
-    background: azure;
+    background-color: 27b0e6;
+  
 }
+
+.logo>p {
+    margin: 0;
+    position: absolute;
+    left: 160px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    color: 0da9e5;
+    box-shadow: 0px 4px rgba(13,169,229);
+}
+
+.nav {
+    float: right;
+    vertical-align: middle;
+    padding: 23px 0px;
+    }
+
+.nav li {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    }
+
+.head-content {
+    text-align: right;
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-top: 45px;
+}
+
+.head-content span {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1 {
+    margin: 0px 0px 30px 0px;
+    padding: 0;
+    text-align: right;
+    color: white;
+    font-size: 70px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+.dl-btn {
+    display: inline-block;
+    width: 173px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 3px solid white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 47px;
+    padding: 19px 15px;
+    text-align: center;
+}
+
+.iphone {
+    position: absolute;
+    top: 383px;
+    left: 231px;
+    
+    
+}
+
