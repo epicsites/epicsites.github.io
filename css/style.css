@@ -136,6 +136,7 @@ h2 {
 }
 
 .yel-con {
+    position: absolute;
     float: left; 
     width: 600px;
     font-size: 15px;
@@ -266,4 +267,67 @@ h2 {
 .beer-btn span {
     font-style: italic;
     font-weight: bold;
+}
+
+/* "Social" section CSS*/
+
+.social {
+    position: relative;
+    background-color: #f4f4f4;
+    z-index: 2;
+    height: 651px;
+    text-align: center;
+}
+
+.soc-btns ul {
+    margin-top: 0px;
+}
+
+.soc-btns li {
+    margin-top: 240px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 70px;
+}
+
+.soc-btns li a {
+    display: table-cell;
+    text-align: center;
+    color: #545454;
+    width: 55px;
+    height: 60px;
+    vertical-align: middle;
+    border: 3px solid #545454;
+    border-radius: 50%;
+}
+
+label {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+input[type=email] {
+    width: 220px; 
+    height: 45px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('/img/hello-btn-icon.png');
+    background-position: 190px 15px; 
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+input[type=email]:focus {
+    outline: 0;
+    background: #fff;
 }
