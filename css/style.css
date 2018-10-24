@@ -315,9 +315,6 @@ input[type=email] {
     border-radius: 15px;
     font-size: 16px;
     background-color: white;
-    background-image: url('/img/hello-btn-icon.png');
-    background-position: 190px 15px; 
-    background-repeat: no-repeat;
     padding: 10px;
 }
 
@@ -325,9 +322,55 @@ input::placeholder {
     font-size: 16px;
     font-style: italic;
     font-weight: bold;
+    background-image: url('/img/hello-btn-icon.png');
+    background-position: 175px 3px; 
+    background-repeat: no-repeat;
 }
 
 input[type=email]:focus {
     outline: 0;
     background: #fff;
+}
+
+/* "Footer" section CSS*/
+
+footer {
+    position: relative;
+    height: 100px;
+    text-align: center;
+    color: #545454;
+    font-weight: bold;
+}
+
+.copyright {
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    font-size: 12px;
+    padding-top: 30px;
+}
+
+.copyright span {
+    color: #6dc5ea;
+}
+
+.copyright span+span {
+    font-style: italic;
+    color: #545454;
+}
+
+.to-top a {
+    position: absolute;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #f4f4f4;
+    border-radius: 7px;
+    right: -300px;
+    bottom: -5px;
+}
+
+.to-top a img {
+    margin-top: 15px;
 }
