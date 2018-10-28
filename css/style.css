@@ -59,17 +59,30 @@ header {
 .nav {
     float: right;
     vertical-align: middle;
-    padding: 23px 0px;
+    padding: 0;
+    margin-top: 23px;
     }
 
-.nav li {
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul li {
     display: block;
     width: 30px;
     height: 4px;
     background-color: white;
     margin-bottom: 2px;
     border-radius: 2px;
+    list-style: none;
     }
+
+.nav a {
+    display:inline-block;
+    height: 40px;
+}
+
 
 .head-content {
     text-align: right;
@@ -117,6 +130,55 @@ h1 {
     top: 383px;
     left: 71px;
     z-index: 1;
+}
+
+/*"Menu" section css*/
+
+.main-menu {
+    display: none;
+    background: rgba(243,120,122,.9);
+    height: 652px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+
+.main-menu ul {
+    list-style: none;
+    vertical-align: middle;
+}
+
+.main-menu .menu {
+    position: absolute;
+    top: 179px;
+    left: 331px;
+    width: 250px;
+}
+
+.main-menu a {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 7px;
+    padding: 17px 15px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+.close {
+    position: relative;
+    float: right;
+    top: 15px;
+    right: -17px;
+    margin-top: 23px;
 }
 
 /* "Ipad" section CSS*/
